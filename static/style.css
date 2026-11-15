@@ -55,8 +55,14 @@ body {
     background-color:#FFFFFF;
 }
 
+.user-container {
+    margin: 0 30px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+}
+
 .user-input {
-    margin-left: 50px;
     height: 35px;
     width: 70vw;
     color: #0364F5;
