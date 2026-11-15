@@ -14,21 +14,21 @@ except Exception as e:
     model = None
 
 responses = {
-    "greeting": ["Oh hi, I just noticed you.", "Hello, human. You may proceed."],
+    "greeting": ["Oh hi, I just noticed you.", "Hello, human. You may proceed.","MEoo hi human :3"],
     "excited greeting": ["YOU'RE HOME! I missed you so much!", "Hi hi hi hi! Where were you?!"],
     "demands food": ["I NEED WORMS :3 I'm hungy", "Hungy ToT"],
-    "wants attention": ["LOOK AT ME. I demand attention immediately.", "Pet me. Or play with me. Choose one."],
-    "complaint": ["I did not like that. I want that on the record.", "This is a betrayal and I will not forget it."],
+    "wants attention": ["LOOK AT MEE PWEASE :3", "Pet me. THIS IS A COMMAND"],
+    "complaint": ["EXCUSE ME :(", "MEANIE"],
     "distress or confusion": ["Where are you?? I can't find you!", "It's dark and I'm confused. Come get me."],
-    "playful": ["Ooh, a toy! Watch this, I'm going to pounce.", "Chase me! Chase me! Chase me!"],
+    "playful": ["Meooo I wanna play", "Chase me! Chase me! Chase me!"],
     "kitten calling": ["Mama? Where are you? I'm little!", "I'm cold and hungry, come here please."],
     "follow me": ["Follow me, I want to show you something.", "Hey, this way! Keep up!"],
     "friendly greeting": ["Hello, friend. I'm happy to see you.", "Oh good, you're here. Everything's fine now."],
     "excited about prey": ["THERE IS A BIRD. I MUST GET IT.", "Why is the window in the way. I am a hunter."],
-    "content": ["Life is perfect. Do not move your hand.", "I am the happiest cat in the world right now."],
+    "content": [":D HAPPEH", "I am the happiest cat in the world right now :D"],
     "stressed or self-soothing": ["I'm nervous. Please stay close to me.", "I'm trying to stay calm, but I'm scared."],
-    "fear or defensive": ["Back off.", "I don't know you and I don't like this."],
-    "warning": ["I'm warning you. This is my food.", "Take one more step. I dare you."],
+    "fear or defensive": ["Back off.", "HISSSSSSSSSSSSS >:("],
+    "warning": ["Warning u, my food hymp", "Take one more step. I dare you."],
     "angry or aggressive": ["Touch me and you will regret it.", "This is MY territory. Leave. Now."],
 }
 

@@ -1,6 +1,7 @@
 html {
     min-height: 100%;
-
+    font-family: 'sans-serif';
+    font-size: 14px;
 }
 
 body {
@@ -14,8 +15,8 @@ body {
 }
 
 .title {
-    padding: top 60px;
-    background-image: url('images/title_text2.png');
+    padding-top: 40vh;
+    background-image: url('images/title_text3.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -23,7 +24,7 @@ body {
 }
 
 .chat-box {
-    margin-top:30px;
+    padding-top:60px;
     height: 40vh;            /* fixed height + overflow = scrollbar */
     overflow-y: auto;
     display: flex;
@@ -52,4 +53,23 @@ body {
     align-self: flex-start;
     /* border: 1px solid #c9a7ff; */
     background-color:#FFFFFF;
+}
+
+.user-input {
+    margin-left: 50px;
+    height: 35px;
+    width: 70vw;
+    color: #0364F5;
+    background-color:#FFFFFF;
+    border-radius:15px;
+
+    
+}
+
+.submit-btn {
+    width: 20vw;
+    height: 40px;
+    background-color:#FFFFFF;
+    border-radius:15px;
+    color: #0364F5;
 }
