@@ -2,11 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Meow Translator</title>
 </head>
 <body>
-    
+    <div class=full_container>
+        <!-- Title image in here -->
+        <div class="title"></div>
+        <div class="chat-box" id="chat-box"></div>
+
+        <form id="chat-form">
+            <input id="user-input" autocomplete="off" placeholder="Type something in meow lang you want to translate!">
+            <button type="submit">Send</button>
+        </form>
+    </div>
 </body>
 </html>

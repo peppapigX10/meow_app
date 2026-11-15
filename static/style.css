@@ -1,0 +1,43 @@
+.full_container{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #0662F5; 
+}
+
+.title {
+    padding: top 60px;
+    background-image: url('title_text2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+
+}
+
+.chat-box {
+    height: 400px;            /* fixed height + overflow = scrollbar */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+    border: 1px solid #c9a7ff;
+    border-radius: 12px;
+}
+
+.message {
+    max-width: 70%;
+    padding: 10px 14px;
+    border-radius: 14px;
+}
+
+.user {
+    align-self: flex-end;     /* pushes your messages to the right */
+    background: #5fbfa0;
+}
+
+.bot {
+    align-self: flex-start;   /* bot messages stay on the left */
+    border: 1px solid #c9a7ff;
+}
